@@ -1,5 +1,5 @@
 import Home from "../components/home";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import About from "../components/about";
 import Contact from "../components/contact";
 

@@ -1,4 +1,4 @@
-import styles from "./Navbar.module.css";
+import styles from "./navbar.module.css";
 import { FaArrowCircleDown, FaArrowDown, FaShopify } from 'react-icons/fa';
 
 const Navbar = () => {
