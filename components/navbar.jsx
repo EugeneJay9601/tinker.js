@@ -1,7 +1,7 @@
 import styles from "./Navbar.module.css";
 import { FaArrowCircleDown, FaArrowDown, FaShopify } from 'react-icons/fa';
 
-const navbar = () => {
+const Navbar = () => {
 return (
     <div className={styles.container}>
         <div>
@@ -23,4 +23,4 @@ return (
     </div>
 );
 };
-export default navbar;
+export default Navbar;
