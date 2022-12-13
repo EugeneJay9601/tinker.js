@@ -1,20 +1,20 @@
-import Navbar from "../components/navbar";
-import Tinker from "../components/Tinker";
+import Home from "../components/home";
+import Navbar from "../components/Navbar";
+import About from "../components/about";
+import Contact from "../components/contact";
 
 
-export default function TINKER() {
+
+
+const HomePage = () => {
   return (
     <div>
-      <Navbar />  
-
-      <Tinker
-        
-        heading1="Find over 10 thouand 
-        nature books in Tinker."
-        pAddress="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>
-
+      <Navbar/>
+      <Home />
+      <About/>
+      <Contact/>
     </div>
   );
-}
+};
+
+export default HomePage;
